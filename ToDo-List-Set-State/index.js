@@ -20,7 +20,9 @@ function App() {
     //key of div is index value and text that is set to that text
     <>
       {todos.map((todo, i) => (
-        <div key={i}>{todo.text}</div>
+        <div className="todo" key={i}>
+          {todo.text}
+        </div>
       ))}
     </>
   );
