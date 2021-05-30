@@ -22,6 +22,12 @@ function App() {
     setTodos(newTodos); //from current state to new state
     setValue(""); //clear form
   };
+  const removeTodo = (e) => {
+    const index = Number(e.target.id);
+    let temp = [...todos];
+    temp.splice(index, 1);
+    setTodos(temp);
+  };
   return (
     //return loops through todos and creates div tag
     //key of div is index value and text that is set to that text
@@ -30,9 +36,10 @@ function App() {
     //inside of handleSubmit, we prevent the default which is to reload the page
     //we have a placeholder "Add Todo" within the onSubmit form
     //handleSubmit function
+    //added onClick to div and added removeTodo function to remove item on click
     <>
       {todos.map((todo, i) => (
-        <div className="todo" key={i}>
+        <div className="todo" key={i} id={i} onClick={removeTodo}>
           {todo.text}
         </div>
       ))}
