@@ -15,7 +15,7 @@ function TodoForm({ addTodo }) {
         type="text"
         className="input"
         value={value}
-        placeholder="Add Todo..."
+        placeholder="Additionally, don't..."
         onChange={(e) => setValue(e.target.value)}
       />
     </form>
