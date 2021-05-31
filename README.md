@@ -1,9 +1,10 @@
 # ToDoList
-## Basic Task Editor 
 
-Project Title: ToDo List
+## Rather than ToDo, these are reminders of what not to do <3
 
-Description: Basic ToDo List, with ability to add and delete tasks. The React Form is housed within the js, which is not best practice. This has been refactored in RefactorFormCompoenent.
+Project Title: ToDo List (To Don't - Things to avoid.)
+
+Description: This list has the basic functionality that you'd expect with a ToDo List. You can remove current items and add to the list.
 
 Usage: List making
 
@@ -11,7 +12,7 @@ HOW TO RUN: Open the index.html file on your browser. You may need to clone this
 
 Support: Email jade.marie.abel@gmail.com
 
-Roadmap: In the future, the ToDo could make use of better styling. 
+Roadmap: In the future, this list could be retitled and restyled to suit other needs. This file could be easily transitioned into a grocery list, etc.
 
 License information: MIT License
 
