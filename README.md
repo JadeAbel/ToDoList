@@ -3,9 +3,9 @@
 
 Project Title: ToDo List
 
-Description: Basic ToDo List, with ability to add and delete tasks. The React Form is housed within the js, which is not best practice and has been refactored in RefactorFormCompoenent.
+Description: Basic ToDo List, with ability to add and delete tasks. The React Form is housed within the js, which is not best practice. This has been refactored in RefactorFormCompoenent.
 
-Usage: FUN
+Usage: List making
 
 HOW TO RUN: Open the index.html file on your browser. You may need to clone this repository to your machine.
 
